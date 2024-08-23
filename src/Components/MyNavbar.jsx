@@ -5,7 +5,7 @@ import kidsIcon from '../assets/img/kids_icon.png';
 
 const MyNavbar = function () {
   return (
-    <Navbar bg="dark" expand="lg" variant="dark">
+    <Navbar className= "nav" bg="dark" expand="lg" variant="dark">
       <div className="container-fluid">
         <Navbar.Brand className="navbar-brand logoNetflix" href="#">
           <img className="w-100" src={netflixLogo} alt="logo netflix" />

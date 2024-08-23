@@ -37,7 +37,7 @@
   }
 }
 .logoNetflix {
-  width: 5%;
+  width: 7%;
 }
 .kids {
   width: 15%;
@@ -48,17 +48,17 @@ h4 {
 .dimensioni {
   font-size: smaller;
 }
-.similBtn {
-  width: 17%;
-  height: 80%;
+
+.nav {
+  margin-left: 230px;
 }
 
-
-.genresBtn {
-  transform: translateX(-10px);
-}
 
 .footerHome {
   margin-top: 80px;
- margin-left: 130px;
+ margin-left: 210px;
+}
+
+.footerBtn {
+  width: 12%;
 }
