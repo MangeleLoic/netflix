@@ -62,7 +62,7 @@ const MyFooter = function () {
             </div>
       </div>
       <div className="container mt-3 mb-4 text-center">
-        <span className="copyRight text-light">&copy; 2024 - Tutti i diritti riservati - EpiFlix</span>
+        <span className="copyRight text-light copy">&copy; 2024 - Tutti i diritti riservati - EpiFlix</span>
       </div>
     </footer>
   );
