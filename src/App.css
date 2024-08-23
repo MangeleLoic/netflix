@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+.logoNetflix {
+  width: 5%;
+}
+.kids {
+  width: 15%;
+}
+h4 {
+  text-align: left !important;
+}
+.dimensioni {
+  font-size: smaller;
+}
+.similBtn {
+  width: 17%;
+  height: 80%;
+}
+
+
+.genresBtn {
+  transform: translateX(-10px);
+}
+
+.footerHome {
+  margin-top: 80px;
+ margin-left: 130px;
+}

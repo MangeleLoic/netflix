@@ -27,7 +27,39 @@ const MyFooter = function () {
           </div>
         </div>
       </div>
-      <div className="container py-2 border-top"></div>
+      <div className="container py-2 border-top">
+      <div className="row">
+                <div className="col-12 col-md-3">
+                    <ul className="list-unstyled">
+                        <li>Audio and subtitles</li>
+                        <li>Media center</li>
+                        <li>Privacy</li>
+                        <li>Contact Us</li>
+                    </ul>
+                </div>
+                <div className="col-12 col-md-3">
+                    <ul className="list-unstyled">
+                        <li>Audio Description</li>
+                        <li>Investor Relations</li>
+                        <li>Legal Notices</li>
+                    </ul>
+                </div>
+                <div className="col-12 col-md-3">
+                    <ul className="list-unstyled">
+                        <li>Help Center</li>
+                        <li>Jobs</li>
+                        <li>Cookie Prefences</li>
+                    </ul>
+                </div>
+                <div className="col-12 col-md-3">
+                    <ul className="list-unstyled">
+                        <li>Gift Cards</li>
+                        <li>Term of Use</li>
+                        <li>Corporate Information</li>
+                    </ul>
+                </div>
+            </div>
+      </div>
       <div className="container mt-3 mb-4 text-center">
         <span className="copyRight text-light">&copy; 2022 - Tutti i diritti riservati - Nome Azienda</span>
       </div>
