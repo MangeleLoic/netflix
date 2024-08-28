@@ -2,8 +2,11 @@ import React from 'react';
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 import netflixLogo from '../netflix_logo.png'; 
 import kidsIcon from '../assets/img/kids_icon.png'; 
+import { Link, useLocation } from 'react-router-dom'
 
 const MyNavbar = function () {
+
+  const location = useLocation()
   return (
     <Navbar className= "nav" bg="dark" expand="lg" variant="dark">
       <div className="container-fluid">
@@ -16,9 +19,14 @@ const MyNavbar = function () {
             <Nav.Link href="#" className="text-light">
               Home
             </Nav.Link>
-            <Nav.Link href="#" className="text-light">
-              <strong>TV Shows</strong>
-            </Nav.Link>
+            <Link
+              to="/tvShows"
+              className={`nav-link${
+                location.pathname === '/tvShows' ? ' active' : ''
+              }`}
+            >
+              TV Shows
+            </Link>
             <Nav.Link href="#" className="text-light">
               Movies
             </Nav.Link>
@@ -38,7 +46,7 @@ const MyNavbar = function () {
               <i className="bi bi-bell-fill"></i>
             </Nav.Link>
             <NavDropdown 
-              title={<img className="kids" src={kidsIcon} alt="Kids icon" />} // Usa l'icona importata
+              title={<img className="kids" src={kidsIcon} alt="Kids icon" />} 
               id="basic-nav-dropdown"
               align="end"
             >
